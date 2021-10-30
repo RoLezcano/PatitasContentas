@@ -1,0 +1,69 @@
+/* SERVICIOS */
+
+.servicios-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+
+    .servicios-title {
+        width: 100%;
+        background-color: rgb(226, 239, 248);
+        margin: 0px;
+    }
+
+    .servicios__title {
+        margin: auto;
+        margin-bottom: 20px;
+        max-width: 611px;
+        background-color: rgb(235, 231, 231);
+    }
+
+    .servicios__list {
+        margin: 0px;
+        padding: 0px;
+
+        &-item {
+            list-style-type: none;
+        }
+    }
+
+    .requisitos__title {
+        margin: auto;
+        margin-bottom: 20px;
+        max-width: 611px;
+        background-color: rgb(235, 231, 231);
+    }
+
+    .requisitos__list {
+        margin: 0px;
+        padding: 0px;
+
+        &-item {
+            list-style-type: none;
+        }
+    }
+
+    .precios__title {
+        margin: auto;
+        margin-bottom: 20px;
+        max-width: 611px;
+        background-color: rgb(235, 231, 231);
+    }
+
+    table {
+        width: 40vw;
+        border: 2px solid gray;
+        .table-body {
+            border: 2px solid gray;
+                td {
+                    padding: 10px;
+                    border: 2px solid gray;
+                }
+        }
+    }
+
+}

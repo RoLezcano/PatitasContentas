@@ -1,0 +1,29 @@
+/* GALERIA */
+
+.galeria-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+
+    .galeria-title {
+        width: 100%;
+        background-color: rgb(226, 239, 248);
+        margin: 0px;
+    }
+
+    .galeria-grid {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;       
+        }
+    }
+}
